@@ -2,7 +2,7 @@ from setuptools import *
 
 setup(
     name="mathfixer",
-    version="1.0.0",
+    version="1.0.1",
     url="https://github.com/none-None1/mathfixer",
     py_modules=["mathfixer","proxy"],
     description="mathfixer, a tool for fixing math in MediaWiki-based wikis",
@@ -13,5 +13,5 @@ setup(
         "Programming Language :: Python :: 3 :: Only",
     ],
     long_description_content_type="text/markdown",
-    requires=["mitmproxy","bs4"]
+    install_requires=["mitmproxy","bs4"]
 )
